@@ -1,0 +1,151 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    float: left;
+    width: 100%;
+    height: 45px;
+    background-color: #FFB319;
+}
+.left ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.left ul li{
+    float: left;
+    font-weight: bold;
+    display: inline;
+}
+.left ul li a:hover{
+    color: white;
+}
+.left ul li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+.right ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.right ul li{
+    float: right;
+    font-weight: bold;
+    display: inline;
+}
+.right ul li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+.right ul li a:hover{
+    color: white;
+}
+.sidebar1{
+    float: left;
+    width: 20%;
+    height:800px;
+    background-color: #1DB9C3;
+}
+
+.sidebar1 img{
+    height: 100%;
+    width: 100%;
+}
+.mainbody{
+width: 60%;
+height: 800px;
+margin: 0;
+padding: 0;
+float: left;
+background-color: #E6E6E6;
+}
+.about{
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.about p{
+    padding: 20px;
+    text-align: justify;
+}
+.heading1{
+    float: left;
+    height: 80px;
+    width: 100%;
+    background-color: #38A3A5;
+    text-align: center;
+}
+.section1{
+    float: left;
+    height: 720px;
+    width: 48%;
+    text-align: center;
+}
+.section1 p{
+    padding: 10px;
+    text-align: justify;
+}
+.section2{
+    float: right;
+    height: 720px;
+    width: 48%;
+    text-align: center;
+}
+.section2 p{
+    padding: 10px;
+    text-align: justify;
+}
+.sidebar2{
+    float: right;
+    width: 20%;
+    height:800px;
+    background-color: #1DB9C3;
+}
+.sidebar2 img{
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    float: left;
+    background-color:#112031;
+    color: white;
+    padding:0;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+}
+marquee{
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.leftFeatures{
+    margin: 10px 20px;
+    float: left;
+    width: 360px;
+    height: 340px;
+    background-color: yellow;
+    text-align: center;
+    font-size: 80px;
+}
+.leftFeatures:hover{
+    background-color: #5C7AEA;
+}
+
+.rightFeatures{
+    margin: 10px 20px;
+    float: right;
+    width: 360px;
+    height: 340px;
+    background-color: yellow;
+    text-align: center;
+    font-size: 80px;
+}
+.rightFeatures:hover{
+    background-color: #5C7AEA;
+}
